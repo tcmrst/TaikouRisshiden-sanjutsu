@@ -18,7 +18,8 @@
 
 <main>
 	<h1>太閤立志伝V 算術ツール</h1>
-	<p>太閤立志伝Vの算術ミニゲームを自動で計算します<br />□ ＋ □ ÷ □ × □ = 8なら、+/*8と入力します</p>
+	<p>太閤立志伝Vの算術ミニゲームを自動で計算します<br />□ ＋ □ ÷ □ × □ = 8なら、+/*8と入力します<br /><a href="https://github.com/tcmrst/TaikouRisshiden-sanjutsu">ソースコードはこちら</a></p>
+
 	<input value={operators} on:input={handleOperatorChanged} placeholder="+/*8" />
 	<p class="result">{result}</p>
 </main>
